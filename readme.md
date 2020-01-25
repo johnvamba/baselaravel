@@ -63,3 +63,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+From compiler Jambs
+Enable php-gmt for effective math problems
+Enable php-intl for other dependencies
