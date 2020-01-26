@@ -14,3 +14,5 @@ yarn-error.log
 .phpunit.result.cache
 laptop_legendofporg
 laptop_legendofporg.pub
+/redis-5.0.7
+redis-5.0.7.tar.gz
