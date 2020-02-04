@@ -21,7 +21,7 @@ class CreateUserDetailsTable extends Migration
             $table->string('last_name');
             $table->string('suffix')->nullable();
             $table->string('civil_status')->default('single');
-            $table->string('phone')->nullable();
+            $table->string('phone')->nullable(); //as main
             $table->timestamps();
         });
     }

@@ -3,13 +3,13 @@
 namespace App\UserCredential\Trait;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Foundation\Auth\User;
+use App\UserCredential\UserDetail;
 
 trait HasDetail
 {
     public function detail()
     {
-    	return $this->belongsTo(User::class);
+    	return $this->hasOne(UserDetail::class);
     }
 
     public function getFullNameAttribute($sequence = 'fl'){
